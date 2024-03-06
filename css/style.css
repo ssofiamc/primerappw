@@ -1,8 +1,23 @@
-#titulo1 {
+.headerContainer {
     font-family: "Satisfy", cursive;
     font-weight: 400;
     font-style: normal;
-    background-color: #d14d72;
-    color: #fcc7d6;
+    color: #ffffff;
     text-align: center;
+    font-size: 2cm;
+    background-color: #d14d72;
+    flex-wrap: wrap;
+    z-index: 1;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+} 
+
+#contenido {
+    background-color: #f0b0c2;
 }
