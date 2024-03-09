@@ -8,7 +8,7 @@
     background-color: #D14D72;
     flex-wrap: wrap;
     z-index: 1;
-    position: sticky;
+    position: static;
     top: 0px;
     width: 100%;
 }
@@ -145,4 +145,23 @@
     background-color: #ffffff;
     grid-area: equiz;
     color: #000000;
+}
+
+.footerContent{
+    background-color: #D14D72;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 17px;
+    padding-top: 15px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.a{
+    text-indent: 250px;
+
+}
+
+.s{
+    text-indent: 250px;
+
 }
