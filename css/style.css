@@ -1,11 +1,11 @@
 .headerContainer {
     font-family: "Satisfy", cursive;
-    font-weight: 400;
+    font-weight: 380;
     font-style: normal;
     color: #ffffff;
     text-align: center;
-    font-size: 2cm;
-    background-color: #d14d72;
+    font-size: 1.7cm;
+    background-color: #D14D72;
     flex-wrap: wrap;
     z-index: 1;
     position: sticky;
@@ -19,49 +19,53 @@
 } 
 
 #contenido {
-    background-color: #f0b0c2;
+    background-color: #F5EEE6;
 }
 
 .bodyContent{
-    background-color: #c289d6;
+    background-color: #FCC8D1;
     display: flex;
     flex-direction: row;
     justify-content:center;
     font-size: 25px;
     font-family:serif;
     font-style: italic;
+    padding: 5px;
+    font-size: 0.7cm;
     }
 
 #in{
     text-indent: -70px;
-    color: #115057;
+    color: #F7418F;
 }
 #fun{
     text-indent: 50px;
-    color: #115057;
+    color: #F7418F;
 
 }
 #vd{
     text-indent: 50px;
-    color: #115057;
+    color: #F7418F;
 
 }
 #ej{
-    text-indent: 70px;
-    color: #115057;
+    text-indent: 50px;
+    color: #F7418F;
 }
 .texto {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
-    text-align: justify;
+    text-align: left;
     text-wrap: wrap;
     text-indent: 5px;
-    padding: 10px;
+    padding: 15px;
     margin: 10px;
+    text-indent: 7px;
 }
 
 #ven{
-    font-size: large;
-    font-family: 'Courier New', Courier, monospace;  
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
     text-indent: 5px; 
     line-height: 40px;
 }
@@ -69,8 +73,8 @@
 
 #desven{
     line-height: 50px;
-    font-size: large;
-    font-family: 'Courier New', Courier, monospace;  
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-indent: 5px;
 }
 
@@ -79,4 +83,3 @@
     margin-bottom: 5px;
     font-family: serif;
 }
-
