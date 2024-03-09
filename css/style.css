@@ -34,6 +34,10 @@
     font-size: 0.7cm;
     }
 
+.linnks{
+    color: #000000;
+}
+
 #in{
     text-indent: -70px;
     color: #F7418F;
@@ -82,4 +86,63 @@
     text-indent: 20px;
     margin-bottom: 5px;
     font-family: serif;
+}
+
+.page {
+    display: grid;
+    width:600 px;
+    height: 200px;
+    grid-template-columns: 3 1cm;
+    grid-template-rows: 3 1cm;
+    grid-gap: 25px;
+    grid-template-areas: "ig tktk fb"
+    "snap pin equiz";
+}
+
+.page .ig{
+    text-align: center;
+    font-size: 30px;
+    background-color: #ffffff;
+    grid-area: ig;
+    color: #000000;
+}
+
+.page .tktk{
+    text-align: center;
+    font-size: 30px;
+    background-color: #ffffff;
+    grid-area: tktk;
+    color: #000000;
+}
+
+.page .fb{
+    text-align: center;
+    font-size: 30px;
+    background-color: #ffffff;
+    grid-area: fb;
+    color: #000000;
+}
+
+.page .snap{
+    text-align: center;
+    font-size: 30px;
+    background-color: #ffffff;
+    grid-area: snap;
+    color: #000000;
+}
+
+.page .pin{
+    text-align: center;
+    font-size: 30px;
+    background-color: #ffffff;
+    grid-area: pin;
+    color: #000000;
+}
+
+.page .equiz{
+    text-align: center;
+    font-size: 30px;
+    background-color: #ffffff;
+    grid-area: equiz;
+    color: #000000;
 }
